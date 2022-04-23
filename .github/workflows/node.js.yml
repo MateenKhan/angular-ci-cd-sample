@@ -27,6 +27,22 @@ jobs:
       - name: npm setup
         uses: ng-easy/npm-setup@v1.7.2
       
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v3.0.0
-
+      - name: Upload to GitHub
+        uses: LasyIsLazy/github-upload-action@v0.2.0
+        with:
+          # Token access to repository
+          access-token: ${{github.token}}
+          # Local file path/directory
+          file-path: /home/runner/work/angular-ci-cd-sample/angular-ci-cd-sample/build
+          # Repository owner
+          owner: MateenKhan
+          # Repository name
+          repo: angular-ci-cd-sample
+          # Branch name to upload the file to
+          branch-name: master
+          # Remote repository file path/directory, default: The root of repository
+          remote-dir: asdf
+          # Git commit message, default: "upload"
+          commit-message: latest build folder
+          
+      
