@@ -30,7 +30,5 @@ jobs:
       - name: install node modules
         uses: tecoli-com/actions-install-node-modules@v0.4
 
-      - name: building angular
-        run: |
-          npm build
-
+      - name: NODE INSTALL BUILD
+        uses: Judahh/nodeBuild@0.0.1
