@@ -30,3 +30,8 @@ jobs:
       - name: install node modules
         run: |
           npm install
+          
+      - name: building angular
+        run: |
+          ng build --configuration=production
+
