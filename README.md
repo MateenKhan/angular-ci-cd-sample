@@ -1,5 +1,7 @@
 # SampleApp
 
+[![pages-build-deployment](https://github.com/MateenKhan/angular-ci-cd-sample/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/MateenKhan/angular-ci-cd-sample/actions/workflows/pages/pages-build-deployment)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
 
 ## Development server
