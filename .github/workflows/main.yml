@@ -1,4 +1,4 @@
-name: Angular GitHub CI/CD
+name: rupesh
 on:
   workflow_dispatch:
     
